@@ -1,0 +1,1 @@
+(program (exp let (decs (dec function g ( (tyfields a : (type_id int)) ) : (type_id int) = (exp (lvalue a))) (dec function g ( (tyfields a : (type_id int)) ) : (type_id int) = (exp (lvalue a)))) in (exps (exp 0)) end))

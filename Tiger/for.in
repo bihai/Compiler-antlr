@@ -1,0 +1,10 @@
+
+let 
+    var M := N*N
+    var N := 8
+in
+  for i := 0 to N-1
+  do 
+     print(i)
+end
+

@@ -1,0 +1,10 @@
+let
+    var a:== 1
+    var b:= 2
+in
+    let 
+        var c := 3
+    in 
+        d
+    end
+end

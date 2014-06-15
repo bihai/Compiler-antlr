@@ -1,0 +1,1 @@
+(program (exp let (decs (dec type a = (ty array of (type_id int))) (dec type b = (ty (type_id a))) (dec (vardec var arr1 : (type_id a) := (exp (type_id b) [ (exp 10) ] of (exp 0))))) in (exps (exp (lvalue (lvalue arr1) [ (exp 2) ]))) end))

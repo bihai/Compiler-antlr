@@ -1,0 +1,1 @@
+(program (exp let (decs (dec function do_nothing1 ( (tyfields a : (type_id int) , b : (type_id string)) ) = (exp do_nothing2 ( (exp (exp (lvalue a)) + (exp 1)) ))) (dec function do_nothing2 ( (tyfields d : (type_id int)) ) = (exp do_nothing1 ( (exp (lvalue d)) , (exp "str") )))) in (exps (exp do_nothing1 ( (exp 0) , (exp "str2") ))) end))

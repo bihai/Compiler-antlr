@@ -1,0 +1,11 @@
+
+let 
+    var a := nil
+    var b := 12
+    var c := "adfaf"
+
+in 
+    a;
+    b
+end
+

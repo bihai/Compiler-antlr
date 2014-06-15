@@ -1,0 +1,1 @@
+(program (exp let (decs (dec type tree = (ty { (tyfields key : (type_id int) , children : (type_id treelist)) })) (dec (vardec var d : (type_id int) := (exp 0))) (dec type treelist = (ty { (tyfields hd : (type_id tree) , tl : (type_id treelist)) }))) in (exps (exp (lvalue d))) end))

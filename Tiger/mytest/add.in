@@ -1,0 +1,18 @@
+let 
+    var a := nil
+    var b := 12
+    var c := "adfaf"
+    var d := 133
+in 
+    -c;
+    -b;
+    b+d;
+    b-d;
+    a+c;
+    b/d;
+    b*d;
+    b*(d+b);
+    d := b+d
+    
+end
+

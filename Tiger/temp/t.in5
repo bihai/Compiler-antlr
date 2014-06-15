@@ -1,0 +1,5 @@
+// test    type-id {[ id=exp, {, id = exp}]}
+
+
+def {[ kkk="abc", fff=123 ]}
+

@@ -1,0 +1,32 @@
+Author : whimsycwd
+Date   : since May 28,2014
+
+
+./run.sh                : recompile
+./config.profile        : environment configuration
+./lib                   : JAVA runtime library
+./testcase              : test code
+./testcase/fetch.sh     : fetch code from remote
+
+
+June 1,2014   implements Symbol validatation
+
+
+Setup:
+1. source config.profile
+   antlr4 
+   grun 
+   runTiger
+
+
+
+
+
+FAQ:
+1.bump into error 'cannot find mylexer or parser'
+If you see "Can't load Hello as lexer or parser", it's because you don't have '.' (current directory) in your CLASSPATH.i
+https://theantlrguy.atlassian.net/wiki/pages/viewpage.action?pageId=7143428
+
+
+2.怎样把Java的类编译到指定的文件夹   -d
+javac -d

@@ -1,0 +1,1 @@
+(program (exp let (decs (dec type rectype = (ty { (tyfields name : (type_id string) , id : (type_id int)) })) (dec (vardec var rec1 := (exp (type_id rectype) { name = (exp "Name") , id = (exp 0) })))) in (exps (exp (lvalue (lvalue rec1) . nam) := (exp "asd"))) end))

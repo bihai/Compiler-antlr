@@ -1,0 +1,1 @@
+(program (exp let (decs (dec function nfactor ( (tyfields n : (type_id int)) ) : (type_id int) = (exp if  (exp (exp (lvalue n)) = (exp 0)) then (exp 1) else (exp (exp (lvalue n)) * (exp nfactor ( (exp (exp (lvalue n)) - (exp 1)) )))))) in (exps (exp nfactor ( (exp 10) ))) end))
